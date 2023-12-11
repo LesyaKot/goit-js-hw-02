@@ -16,16 +16,3 @@ console.log(checkForSpam("Get rid of sPaM emails. Our book in on sale!")); // tr
 console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
 
 
-// Спосіб 2
-
-// function checkForSpam(message) {
-// const hasSpam1 = message.includes("spam");
-// const hasSpam2 = message.includes("sale");
-// const lowerCaseInput1 = message.toLowerCase();
-// const lowerCaseInput2 = message.toLowerCase();
-// if ((hasSpam1, hasSpam2)) {
-//   return true;
-// } else {
-//   return false;
-// }
-// }
